@@ -1,6 +1,6 @@
-ALPINE_VERSION  := 3.3
-MAVEN_VERSION := 2.75-r1
-SIGNING_KEY     := 17BE6741
+ALPINE_VERSION := 3.3
+MAVEN_VERSION  := 2.75-r1
+SIGNING_KEY    := 17BE6741
 .PHONY=all
 
 all: maven-${MAVEN_VERSION}-linux-amd64.aci maven-${MAVEN_VERSION}-linux-amd64.aci.asc
